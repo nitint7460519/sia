@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# SIA artifacts — keep the small files the hosted app needs (scalers + model),
+# ignore the heavy/derived ones (training checkpoints, full pseudo-label dump).
+artifacts/_hf/
+artifacts/model/
+artifacts/pseudo_labels.csv
+# (artifacts/scalers.json and artifacts/baseline.joblib ARE committed so the
+#  Streamlit app runs on deploy — do not ignore them.)
+
+# Local data (download the Kaggle CSV yourself; sample is regenerated)
+data/*.csv
+!data/.gitkeep
+
+# Inference outputs
+predictions.csv
+dossiers.json
+
+# HF / torch caches
+.cache/
+*.log
+
+# OS
+.DS_Store
