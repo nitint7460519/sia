@@ -1,0 +1,4 @@
+signals,mismatch_rate,hidden_crisis,false_alarm,heldout_macro_f1
+lex,0.1935,1341,2529,0.9753
+rt,0.2283,980,3587,0.9922
+lex+rt,0.2427,1941,2913,0.9058

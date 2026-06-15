@@ -1,0 +1,22 @@
+{
+  "backend": "baseline",
+  "signals": [
+    "lex",
+    "rt"
+  ],
+  "used_embedding": false,
+  "rt_scaler": {
+    "cuts": [
+      11.0,
+      27.0,
+      100.0
+    ]
+  },
+  "calibrator": {
+    "cuts": [
+      0.6153846153846154,
+      1.0769230769230769,
+      1.3846153846153846
+    ]
+  }
+}

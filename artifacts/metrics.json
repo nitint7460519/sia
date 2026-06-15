@@ -1,0 +1,24 @@
+{
+  "accuracy": 0.9406666666666667,
+  "macro_f1": 0.9171630163582876,
+  "recall_consistent": 0.9727112676056338,
+  "recall_mismatch": 0.8406593406593407,
+  "confusion_matrix": [
+    [
+      2210,
+      62
+    ],
+    [
+      116,
+      612
+    ]
+  ],
+  "n": 3000,
+  "min_per_class_recall": 0.8406593406593407,
+  "passes": {
+    "accuracy": true,
+    "macro_f1": true,
+    "per_class_recall": true,
+    "ALL_PASS": true
+  }
+}
